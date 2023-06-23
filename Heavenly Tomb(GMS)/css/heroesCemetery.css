@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#307399,#AED7ED);
+}
+.all-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#307399,#AED7ED);
+}
+.nav-bar{
+    width: 100vw;
+    height: 50px;
+    background-color: #307399;
+    display: flex;
+}
+.first-nav{
+    width: 20%;
+    height: 100%;
+}
+.second-nav{
+    width: 80%;
+    height: 100%;
+}
+.second-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 50px;
+    list-style: none;
+}
+.second-nav ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.second-nav ul li::after{
+    content: '';
+    background-color: aqua;
+    height: 2px;
+    width: 0%;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+.second-nav ul li:hover::after{
+    width: 100%;
+}
+/*
+*End of nav
+*/
+.secondNav{
+    width: 100vw;
+    height: 80px;
+    background-color: gray;
+    display: flex;
+}
+.main-content{
+    width: 90%;
+    margin: 20px auto;
+    background: #307399;
+    height: 600px;;
+}
+.main-content h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.image-sidebar {
+    width: 100%;
+    background-image: url(../images/khdIconcemeterylocation\ 1.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}

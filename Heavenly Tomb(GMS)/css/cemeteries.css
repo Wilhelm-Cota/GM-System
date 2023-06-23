@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.all-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#307399,#AED7ED);
+}
+.nav-bar{
+    width: 100vw;
+    height: 50px;
+    background-color: #307399;
+    display: flex;
+}
+.first-nav{
+    width: 20%;
+    height: 100%;
+}
+.second-nav{
+    width: 80%;
+    height: 100%;
+}
+.second-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 50px;
+    list-style: none;
+}
+.second-nav ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.second-nav ul li::after{
+    content: '';
+    background-color: aqua;
+    height: 2px;
+    width: 0%;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+.second-nav ul li:hover::after{
+    width: 100%;
+}
+/*
+*End of nav
+*/
+.cemeteries-background{
+    width: 90%;
+    margin: 20px auto;
+    background-image: url(../images/cemeteryback.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85%;
+}
+.cemeteries-background h1{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+}
+.cemeteries-background p{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.cemeteries-background form input{
+    width: 70%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    border-radius: 39px;
+    border: none;
+}
+.cemeteries-background form button{
+    float: right;
+    margin-right: 165px;
+    margin-top: -32px;
+    padding: 5px 30px;
+    border-radius: 39px;
+    background: #205878;
+    color: white;
+}
+.information-cemeteries{
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    background: transparent;
+    display: flex;
+    
+}
+.information-cemeteries p{
+    display: inline-block;
+}
+.information-cemeteries .header-info{
+    width: 100%;
+}
+.information-cemeteries .nameTag{
+    padding-right: 450px;
+    padding-left: 140px;
+}
+.information-cemeteries .availableTag, .bookedTag, .totalTag{
+    padding-right: 50px;
+}
+.records{
+    width: 80%;
+    margin: 20px auto;
+}
+.records .new-records{
+    background-color: white;
+    margin-top: 10px;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+.new-records{
+    display: flex;
+}
+.records .new-records h4{
+    padding-left: 20px;
+}
+.records .new-records p{
+    color: black;
+}
+
+.icons img{
+background-color: white;
+}
+/*
+
+*/
+
